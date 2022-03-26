@@ -19,10 +19,10 @@ const materialModules = [
   ],
   imports: [
     ...materialModules,
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
+    BrowserAnimationsModule,
     SharedModule,
-    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
