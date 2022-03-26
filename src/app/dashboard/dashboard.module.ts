@@ -5,9 +5,13 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
 import { SharedModule } from '../shared/shared.module';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 const matModules = [
   MatGridListModule,
+  MatCardModule,
+  MatButtonModule,
 ]
 
 @NgModule({
