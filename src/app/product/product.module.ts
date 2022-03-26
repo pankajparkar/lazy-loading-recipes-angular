@@ -4,9 +4,11 @@ import { CommonModule } from '@angular/common';
 import { ProductRoutingModule } from './product-routing.module';
 import { ProductComponent } from './product.component';
 import { MatTableModule } from '@angular/material/table';
+import { MatCardModule } from '@angular/material/card';
 
 const matModules = [
   MatTableModule,
+  MatCardModule,
 ];
 
 @NgModule({

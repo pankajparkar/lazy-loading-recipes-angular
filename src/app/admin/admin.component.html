@@ -1,4 +1,8 @@
-<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+<mat-card>
+  <mat-card-title>Admin</mat-card-title>
+  <mat-card-subtitle>admin can modify the users</mat-card-subtitle>
+
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
 
     <!-- Position Column -->
     <ng-container matColumnDef="position">
@@ -28,4 +32,6 @@
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
   
+</mat-card>
+
   
