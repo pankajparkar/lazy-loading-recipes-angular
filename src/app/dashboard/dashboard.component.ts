@@ -21,7 +21,7 @@ export class DashboardComponent implements OnInit {
 
   async showWeatherComponent() {
     this.container.clear();
-    const component = await import('../weather-forecast/weather-dashboard/weather-dashboard.component')
+    const component = await import('../weather-forecast')
       .then(t => t.WeatherDashboardComponent);
     const componentRef = this.container.createComponent(component);
     componentRef.instance.headingStart = 'Something Funny ';
